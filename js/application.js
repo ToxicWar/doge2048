@@ -4,29 +4,43 @@ window.requestAnimationFrame(function () {
 });
 
 
+    /*
+        2    - Half-Life
+        4    - Counter-Strike: Source
+        8    - Half-Life 2
+        16   - Team Fortress 2
+        32   - Portal 
+        64   - Left 4 Dead
+        128  - Left 4 Dead 2
+        258  - Portal 2
+        512  - Counter-Strike: Global Offensive
+        1024 - Dota 2
+        2048 - Half-Life 3
+     */
+
     var imageList = [
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-derp-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-fat-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-gradient-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-hat-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-peepers-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-prizza-212.gif",        
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-rainbow-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-shake-space-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-sunglasses-212.gif",        
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-shake-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-wink-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-derp-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-fat-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-gradient-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-hat-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-peepers-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-prizza-114.gif",        
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-rainbow-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-space-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-sunglasses-114.gif",        
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-wink-114.gif",
+        "http://toxicwar.github.io/gabe2048/img/212/half-life-3-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/Dota2-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/CSGO-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/Portal2-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/L4D2-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/L4D-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/Portal-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/TF2-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/HL2-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/CSS-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/HL-212.png",
+        "http://toxicwar.github.io/gabe2048/img/114/half-life-3-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/Dota2-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/CSGO-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/Portal2-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/L4D2-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/L4D-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/Portal-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/TF2-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/HL2-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/CSS-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/HL-114.png",
     ];
     for(var i = 0; i < imageList.length; i++ ) 
     {
