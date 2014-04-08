@@ -952,7 +952,7 @@ hr {
           font-size: 15px; } }
     .tile.tile-super .tile-inner {
 
-      background: #f0f url('http://toxicwar.github.io/gabe2048/img/114/half-life-3-114.png"');
+      background: #f0f url('http://toxicwar.github.io/gabe2048/img/114/half-life-3-114.png');
       background-size: cover;    
       font-size: 30px; }
       @media screen and (max-width: 480px) {
