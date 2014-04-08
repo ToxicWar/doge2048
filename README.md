@@ -1,9 +1,10 @@
-# Doge2048
-Just a couple of minor tweakts to Gabriele Cirulli's code base [here](https://github.com/gabrielecirulli/2048)
+# Gabe2048
+Just added history Valve games for fun.
 
-Made just for fun. [Play it here!](http://doge2048.com)
+Thanks to Gabriele Cirulli and Jason LaFerrera code base [here](https://github.com/gabrielecirulli/2048) and [here](https://github.com/laferrera/doge2048)
+
+Made just for fun. [Play it here!](http://gabe2048.com)
 
 
 ## License
-Doge2048 is licensed under the [MIT license.](https://github.com/laferrera/doge2048/blob/master/LICENSE.txt)
-
+Gabe2048 is licensed under the [MIT license.](https://github.com/toxicwar/doge2048/blob/master/LICENSE.txt)
