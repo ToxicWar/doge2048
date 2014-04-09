@@ -16,31 +16,30 @@ window.requestAnimationFrame(function () {
         512  - Counter-Strike: Global Offensive
         1024 - Dota 2
         2048 - Half-Life 3
-     */
-
+    */
     var imageList = [
-        "http://toxicwar.github.io/gabe2048/img/212/Half-Life-3-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/Dota2-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/CSGO-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/Portal2-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/L4D2-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/L4D-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/Portal-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/TF2-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/HL2-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/CSS-212.png",
-        "http://toxicwar.github.io/gabe2048/img/212/HL-212.png",
-        "http://toxicwar.github.io/gabe2048/img/114/Half-Life-3-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/Dota2-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/CSGO-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/Portal2-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/L4D2-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/L4D-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/Portal-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/TF2-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/HL2-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/CSS-114.png",
-        "http://toxicwar.github.io/gabe2048/img/114/HL-114.png",
+        "http://gabe2048.com/img/212/Half-Life-3-212.png",
+        "http://gabe2048.com/img/212/Dota2-212.png",
+        "http://gabe2048.com/img/212/CSGO-212.png",
+        "http://gabe2048.com/img/212/Portal2-212.png",
+        "http://gabe2048.com/img/212/L4D2-212.png",
+        "http://gabe2048.com/img/212/L4D-212.png",
+        "http://gabe2048.com/img/212/Portal-212.png",
+        "http://gabe2048.com/img/212/TF2-212.png",
+        "http://gabe2048.com/img/212/HL2-212.png",
+        "http://gabe2048.com/img/212/CSS-212.png",
+        "http://gabe2048.com/img/212/HL-212.png",
+        "http://gabe2048.com/img/114/Half-Life-3-114.png",
+        "http://gabe2048.com/img/114/Dota2-114.png",
+        "http://gabe2048.com/img/114/CSGO-114.png",
+        "http://gabe2048.com/img/114/Portal2-114.png",
+        "http://gabe2048.com/img/114/L4D2-114.png",
+        "http://gabe2048.com/img/114/L4D-114.png",
+        "http://gabe2048.com/img/114/Portal-114.png",
+        "http://gabe2048.com/img/114/TF2-114.png",
+        "http://gabe2048.com/img/114/HL2-114.png",
+        "http://gabe2048.com/img/114/CSS-114.png",
+        "http://gabe2048.com/img/114/HL-114.png",
     ];
     for(var i = 0; i < imageList.length; i++ ) 
     {
