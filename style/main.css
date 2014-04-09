@@ -154,26 +154,6 @@ h1.title {
     margin-left:-32px;
     margin-bottom:10px;}
     
-    .shout-out-container{
-      text-align:center;
-    }
-    .shout-out{
-      height:10px;
-      line-height: 10px;
-      /*background: #f0f;*/
-      padding: 10px 10px;
-      border-radius: 3px;
-      display:inline-block;
-    }
-    
-  .shout-out a{
-    font-weight: normal;
-    height:10px;
-    width:auto;
-    text-decoration:none;
-    color:#fff;
-  }
-    
   .info-container, .hide-info {
     display: inline-block;
     /*background: #f0f;*/
@@ -664,12 +644,6 @@ hr {
 .game-intro {
   margin-bottom: 0; }
 
-.game-explanation, .shout-out {
-  margin-top: 0px;
-  text-align: center;
-  font-size: 14px;}
-
-
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -697,14 +671,6 @@ hr {
 
   .game-explanation {
     display:none;}
-    
-  .shout-out, .game-explanation{
-    margin-top:10px;
-    height:0;
-    padding-top:10px;
-    padding-bottom:20px;
-  /*  font-size:12px;*/
-  }
 
   .game-container {
     margin-top: 40px;

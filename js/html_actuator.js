@@ -4,8 +4,6 @@ function HTMLActuator() {
   this.bestContainer    = document.querySelector(".best-container");
   this.messageContainer = document.querySelector(".game-message");
   this.info             = document.querySelector(".info");  
-  this.adSpace = document.querySelector(".shout-out");
-
   this.score = 0;
 }
 
