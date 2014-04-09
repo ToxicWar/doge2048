@@ -9,12 +9,6 @@ function HTMLActuator() {
   this.score = 0;
 }
 
-var ads = [
-
-  '<a href="https://itunes.apple.com/us/app/snack-compass/id646138186?mt=8&ign-mpt=uo%3D4" target="_blank">Like Pizza?</a>',
-  '<a href="http://maxhash.com/doge" target="_blank">Check out everything hashtagged Doge!</a>',
-]
-
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
 
@@ -124,11 +118,6 @@ HTMLActuator.prototype.updateScore = function (score) {
     addition.classList.add("score-addition");
     addition.textContent = "+" + difference;
     this.scoreContainer.appendChild(addition);
-
-    if (difference > 4) {
-     this.adSpace.innerHTML = ads[Math.floor(Math.random() * ads.length)]
-    }
-    
   }
 };
 
