@@ -123,30 +123,6 @@ h1.title {
       25%  {color: magenta;}
       50%  {color: yellow;}
       100% {color: white;} }
-      
-  @-webkit-keyframes background-gradient-change {
-      0%   {background: #cff;}
-      33%  {background: #fcf;}
-      66%  {background: #ffc;}
-      100%   {background: #cff;}}
-
-  @-moz-keyframes background-gradient-change {
-      0%   {background: #dff;}
-      33%  {background: #fdf;}
-      66%  {background: #ffd;}
-      100%   {background: #dff;}}
-      
-  @keyframes background-gradient-change {
-      0%   {background: #dff;}
-      33%  {background: #fdf;}
-      66%  {background: #ffd;}
-      100%   {background: #dff;}}      
-      
-  a:hover {
-         -webkit-animation: hover-change linear 0.1s infinite;
-         -moz-animation: hover-change linear 0.1s infinite;
-         animation: hover-change linear 0.1s infinite;
-       }      
 
 .scores-container {
   float: right;
