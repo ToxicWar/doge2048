@@ -19,7 +19,7 @@ window.requestAnimationFrame(function () {
      */
 
     var imageList = [
-        "http://toxicwar.github.io/gabe2048/img/212/half-life-3-212.png",
+        "http://toxicwar.github.io/gabe2048/img/212/Half-Life-3-212.png",
         "http://toxicwar.github.io/gabe2048/img/212/Dota2-212.png",
         "http://toxicwar.github.io/gabe2048/img/212/CSGO-212.png",
         "http://toxicwar.github.io/gabe2048/img/212/Portal2-212.png",
@@ -30,7 +30,7 @@ window.requestAnimationFrame(function () {
         "http://toxicwar.github.io/gabe2048/img/212/HL2-212.png",
         "http://toxicwar.github.io/gabe2048/img/212/CSS-212.png",
         "http://toxicwar.github.io/gabe2048/img/212/HL-212.png",
-        "http://toxicwar.github.io/gabe2048/img/114/half-life-3-114.png",
+        "http://toxicwar.github.io/gabe2048/img/114/Half-Life-3-114.png",
         "http://toxicwar.github.io/gabe2048/img/114/Dota2-114.png",
         "http://toxicwar.github.io/gabe2048/img/114/CSGO-114.png",
         "http://toxicwar.github.io/gabe2048/img/114/Portal2-114.png",
