@@ -61,9 +61,9 @@ KeyboardInputManager.prototype.listen = function () {
   keepPlaying.addEventListener("click", this.keepPlaying.bind(this));
   keepPlaying.addEventListener("touchend", this.keepPlaying.bind(this));
   
-  var showInfo = document.querySelector(".info-container");
-  showInfo.addEventListener("click", this.showInfo.bind(this));
-  showInfo.addEventListener("touchend", this.showInfo.bind(this));
+  // var showInfo = document.querySelector(".info-container");
+  // showInfo.addEventListener("click", this.showInfo.bind(this));
+  // showInfo.addEventListener("touchend", this.showInfo.bind(this));
   
   // var hideInfo = document.querySelector(".hide-info");
   // hideInfo.addEventListener("click", this.hideInfo.bind(this));
@@ -112,10 +112,10 @@ KeyboardInputManager.prototype.keepPlaying = function (event) {
   this.emit("keepPlaying");
 };
 
-KeyboardInputManager.prototype.showInfo = function (event) {
-  event.preventDefault();
-  this.emit("showInfo");
-};
+// KeyboardInputManager.prototype.showInfo = function (event) {
+//   event.preventDefault();
+//   this.emit("showInfo");
+// };
 
 KeyboardInputManager.prototype.hideInfo = function (event) {
   event.preventDefault();

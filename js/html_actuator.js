@@ -138,15 +138,15 @@ HTMLActuator.prototype.clearMessage = function () {
 };
 
 
-HTMLActuator.prototype.showInfo = function () {
-  if ( this.info.getAttribute('style') === "display:block;"){
-    this.info.setAttribute('style','display:none;')
-    document.querySelector('.show-info').innerHTML = 'INFO';
-  } else {
-    this.info.setAttribute('style','display:block;') 
-    document.querySelector('.show-info').innerHTML = 'CLOSE';
-  }
-}
+// HTMLActuator.prototype.showInfo = function () {
+//   if ( this.info.getAttribute('style') === "display:block;"){
+//     this.info.setAttribute('style','display:none;')
+//     document.querySelector('.show-info').innerHTML = 'INFO';
+//   } else {
+//     this.info.setAttribute('style','display:block;') 
+//     document.querySelector('.show-info').innerHTML = 'CLOSE';
+//   }
+// }
 
 
 HTMLActuator.prototype.hideInfo = function () {
