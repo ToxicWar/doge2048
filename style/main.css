@@ -319,6 +319,8 @@ hr {
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
+      background: #fff url('http://gabe2048.com/meta/Gabe-438.jpg');
+      background-size: cover;
       display: block; }
 
 .grid-container {
@@ -698,6 +700,8 @@ hr {
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
+        background: #fff url('http://gabe2048.com/meta/Gabe-438.jpg');
+        background-size: cover;
         display: block; }
 
   .grid-container {
