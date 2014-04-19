@@ -82,3 +82,19 @@ Grid.prototype.withinBounds = function (position) {
   return position.x >= 0 && position.x < this.size &&
          position.y >= 0 && position.y < this.size;
 };
+
+Grid.prototype.maxCellDown = function() {
+  var maxValue = 2;
+  var maxCell = null;
+
+  this.cells.forEach(function(cells) {
+    cells.forEach(function(cell){
+      if (maxValue < cell.value) {
+        maxCell = cell;
+        maxValue = cell.value;
+      }
+    });
+  });
+  maxCell.value = maxCell.value / 2;
+  return maxCell;
+};
